@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6D0EA4A1A82DA420048D85B /* libAdWranglCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D0EA3E1A82DA420048D85B /* libAdWranglCore.a */; };
+		A6D0EA5A1A82DBB10048D85B /* AWCore.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D0EA591A82DBB10048D85B /* AWCore.m */; };
+		A6D0EA5D1A82DBD60048D85B /* AWNetworkWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D0EA5C1A82DBD60048D85B /* AWNetworkWrapper.m */; };
+		A6D0EA601A82DC0E0048D85B /* AWDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D0EA5F1A82DC0E0048D85B /* AWDataSource.m */; };
+		A6D0EA681A82DCC10048D85B /* AWFileDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D0EA671A82DCC10048D85B /* AWFileDataSource.m */; };
+		A6D0EA6B1A82DCEC0048D85B /* AWCloudDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D0EA6A1A82DCEC0048D85B /* AWCloudDataSource.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6D0EA4B1A82DA420048D85B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6D0EA361A82DA420048D85B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6D0EA3D1A82DA420048D85B;
+			remoteInfo = AdWranglCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A6D0EA3C1A82DA420048D85B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A6D0EA3E1A82DA420048D85B /* libAdWranglCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAdWranglCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6D0EA491A82DA420048D85B /* AdWranglCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdWranglCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6D0EA4F1A82DA420048D85B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6D0EA581A82DBB10048D85B /* AWCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWCore.h; sourceTree = "<group>"; };
+		A6D0EA591A82DBB10048D85B /* AWCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWCore.m; sourceTree = "<group>"; };
+		A6D0EA5B1A82DBD60048D85B /* AWNetworkWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWNetworkWrapper.h; sourceTree = "<group>"; };
+		A6D0EA5C1A82DBD60048D85B /* AWNetworkWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWNetworkWrapper.m; sourceTree = "<group>"; };
+		A6D0EA5E1A82DC0E0048D85B /* AWDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWDataSource.h; sourceTree = "<group>"; };
+		A6D0EA5F1A82DC0E0048D85B /* AWDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWDataSource.m; sourceTree = "<group>"; };
+		A6D0EA661A82DCC10048D85B /* AWFileDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWFileDataSource.h; sourceTree = "<group>"; };
+		A6D0EA671A82DCC10048D85B /* AWFileDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWFileDataSource.m; sourceTree = "<group>"; };
+		A6D0EA691A82DCEC0048D85B /* AWCloudDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWCloudDataSource.h; sourceTree = "<group>"; };
+		A6D0EA6A1A82DCEC0048D85B /* AWCloudDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWCloudDataSource.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6D0EA3B1A82DA420048D85B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6D0EA461A82DA420048D85B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D0EA4A1A82DA420048D85B /* libAdWranglCore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6D0EA351A82DA420048D85B = {
+			isa = PBXGroup;
+			children = (
+				A6D0EA401A82DA420048D85B /* AdWranglCore */,
+				A6D0EA4D1A82DA420048D85B /* AdWranglCoreTests */,
+				A6D0EA3F1A82DA420048D85B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6D0EA3F1A82DA420048D85B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6D0EA3E1A82DA420048D85B /* libAdWranglCore.a */,
+				A6D0EA491A82DA420048D85B /* AdWranglCoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6D0EA401A82DA420048D85B /* AdWranglCore */ = {
+			isa = PBXGroup;
+			children = (
+				A6D0EA651A82DCC10048D85B /* DataSources */,
+				A6D0EA581A82DBB10048D85B /* AWCore.h */,
+				A6D0EA591A82DBB10048D85B /* AWCore.m */,
+				A6D0EA5B1A82DBD60048D85B /* AWNetworkWrapper.h */,
+				A6D0EA5C1A82DBD60048D85B /* AWNetworkWrapper.m */,
+				A6D0EA5E1A82DC0E0048D85B /* AWDataSource.h */,
+				A6D0EA5F1A82DC0E0048D85B /* AWDataSource.m */,
+			);
+			path = AdWranglCore;
+			sourceTree = "<group>";
+		};
+		A6D0EA4D1A82DA420048D85B /* AdWranglCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6D0EA4E1A82DA420048D85B /* Supporting Files */,
+			);
+			path = AdWranglCoreTests;
+			sourceTree = "<group>";
+		};
+		A6D0EA4E1A82DA420048D85B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6D0EA4F1A82DA420048D85B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6D0EA651A82DCC10048D85B /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				A6D0EA661A82DCC10048D85B /* AWFileDataSource.h */,
+				A6D0EA671A82DCC10048D85B /* AWFileDataSource.m */,
+				A6D0EA691A82DCEC0048D85B /* AWCloudDataSource.h */,
+				A6D0EA6A1A82DCEC0048D85B /* AWCloudDataSource.m */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6D0EA3D1A82DA420048D85B /* AdWranglCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6D0EA521A82DA420048D85B /* Build configuration list for PBXNativeTarget "AdWranglCore" */;
+			buildPhases = (
+				A6D0EA3A1A82DA420048D85B /* Sources */,
+				A6D0EA3B1A82DA420048D85B /* Frameworks */,
+				A6D0EA3C1A82DA420048D85B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdWranglCore;
+			productName = AdWranglCore;
+			productReference = A6D0EA3E1A82DA420048D85B /* libAdWranglCore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A6D0EA481A82DA420048D85B /* AdWranglCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6D0EA551A82DA420048D85B /* Build configuration list for PBXNativeTarget "AdWranglCoreTests" */;
+			buildPhases = (
+				A6D0EA451A82DA420048D85B /* Sources */,
+				A6D0EA461A82DA420048D85B /* Frameworks */,
+				A6D0EA471A82DA420048D85B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6D0EA4C1A82DA420048D85B /* PBXTargetDependency */,
+			);
+			name = AdWranglCoreTests;
+			productName = AdWranglCoreTests;
+			productReference = A6D0EA491A82DA420048D85B /* AdWranglCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6D0EA361A82DA420048D85B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = AdWrangl;
+				TargetAttributes = {
+					A6D0EA3D1A82DA420048D85B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A6D0EA481A82DA420048D85B = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = A6D0EA391A82DA420048D85B /* Build configuration list for PBXProject "AdWranglCore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A6D0EA351A82DA420048D85B;
+			productRefGroup = A6D0EA3F1A82DA420048D85B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6D0EA3D1A82DA420048D85B /* AdWranglCore */,
+				A6D0EA481A82DA420048D85B /* AdWranglCoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6D0EA471A82DA420048D85B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6D0EA3A1A82DA420048D85B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6D0EA681A82DCC10048D85B /* AWFileDataSource.m in Sources */,
+				A6D0EA5D1A82DBD60048D85B /* AWNetworkWrapper.m in Sources */,
+				A6D0EA5A1A82DBB10048D85B /* AWCore.m in Sources */,
+				A6D0EA601A82DC0E0048D85B /* AWDataSource.m in Sources */,
+				A6D0EA6B1A82DCEC0048D85B /* AWCloudDataSource.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6D0EA451A82DA420048D85B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6D0EA4C1A82DA420048D85B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6D0EA3D1A82DA420048D85B /* AdWranglCore */;
+			targetProxy = A6D0EA4B1A82DA420048D85B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A6D0EA501A82DA420048D85B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A6D0EA511A82DA420048D85B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6D0EA531A82DA420048D85B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A6D0EA541A82DA420048D85B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A6D0EA561A82DA420048D85B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AdWranglCoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A6D0EA571A82DA420048D85B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AdWranglCoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6D0EA391A82DA420048D85B /* Build configuration list for PBXProject "AdWranglCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6D0EA501A82DA420048D85B /* Debug */,
+				A6D0EA511A82DA420048D85B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6D0EA521A82DA420048D85B /* Build configuration list for PBXNativeTarget "AdWranglCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6D0EA531A82DA420048D85B /* Debug */,
+				A6D0EA541A82DA420048D85B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6D0EA551A82DA420048D85B /* Build configuration list for PBXNativeTarget "AdWranglCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6D0EA561A82DA420048D85B /* Debug */,
+				A6D0EA571A82DA420048D85B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6D0EA361A82DA420048D85B /* Project object */;
+}
